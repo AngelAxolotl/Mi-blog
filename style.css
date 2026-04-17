@@ -1,0 +1,75 @@
+body
+  {
+    background-color: rgb(186, 194, 194);
+    margin: 0;
+  padding-top: 80px;
+  }
+
+video {
+  max-width: 600px;
+  width: 100%;
+  display: block;
+  margin: 20px auto; 
+}
+
+img {
+  max-width: 600px;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1e1e2f;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+
+  padding: 10px 0;
+}
+
+/* Título */
+nav h1 {
+  margin: 0;
+  text-align: center;
+}
+nav h2{
+  margin: 1;
+  text-align: center;
+}
+
+/* Lista */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 80px; /* más separación */
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+nav a {
+  color: rgb(71, 69, 69);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Hover bonito */
+nav a:hover {
+  background: #f39c12;
+  color: black;
+}
+
+
