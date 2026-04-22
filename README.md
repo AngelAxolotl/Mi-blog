@@ -1,2 +1,4 @@
-# ad-l4
-AD-07-1 The blog Site - Group
+Los cambios que se hizo fueron los siguientes:
+se agrego los links de Botstrap
+un navbar con bots
+se uso el container
